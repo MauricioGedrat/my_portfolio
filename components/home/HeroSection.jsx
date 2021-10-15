@@ -65,16 +65,18 @@ export default function HeroSection() {
     return (
         <div className="py-12 bg-white -mt-20">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div className="lg:text-center">
-                    <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-                        Certificados
-                    </p>
-                    <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-                        Tenho <strong>5 Certificados</strong> são eles:
-                        JavaScript ES6, CSS Grid, CSS Flexbox, Bootsrap 4 e
-                        React completo; Porém tenho experiência em outras
-                        linguagens como Next.js, Tailwind CSS, Git e Html 5.
-                    </p>
+                <div className="justify-center flex text-center">
+                    <div className="lg:text-center">
+                        <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                            Certificados
+                        </p>
+                        <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
+                            Tenho <strong>5 Certificados</strong> são eles:
+                            JavaScript ES6, CSS Grid, CSS Flexbox, Bootsrap 4 e
+                            React completo; Porém tenho experiência em outras
+                            linguagens como Next.js, Tailwind CSS, Git e Html 5.
+                        </p>
+                    </div>
                 </div>
 
                 <div className="mt-10">

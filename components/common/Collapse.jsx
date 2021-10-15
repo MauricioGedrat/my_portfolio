@@ -23,7 +23,7 @@ export default function Collapse() {
                                     } w-5 h-5 text-blue-300`}
                                 />
                             </Disclosure.Button>
-                            <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm text-gray-500">
+                            <Disclosure.Panel className="px-4 pt-4 pb-2 text-md text-gray-500">
                                 No momento 13 anos.
                             </Disclosure.Panel>
                         </>
@@ -42,7 +42,7 @@ export default function Collapse() {
                                     } w-5 h-5 text-blue-300`}
                                 />
                             </Disclosure.Button>
-                            <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm text-gray-500">
+                            <Disclosure.Panel className="px-4 pt-4 pb-2  text-md text-gray-500">
                                 Com 12 anos.
                             </Disclosure.Panel>
                         </>
@@ -61,7 +61,7 @@ export default function Collapse() {
                                     } w-5 h-5 text-blue-300`}
                                 />
                             </Disclosure.Button>
-                            <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm text-gray-500">
+                            <Disclosure.Panel className="px-4 pt-4 pb-2 text-md text-gray-500">
                                 Trabalho somente na area de Frontend por
                                 enquanto.
                             </Disclosure.Panel>
@@ -81,7 +81,7 @@ export default function Collapse() {
                                     } w-5 h-5 text-blue-300`}
                                 />
                             </Disclosure.Button>
-                            <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm text-gray-500">
+                            <Disclosure.Panel className="px-4 pt-4 pb-2  text-md text-gray-500">
                                 Não ofereco.
                             </Disclosure.Panel>
                         </>
@@ -100,7 +100,7 @@ export default function Collapse() {
                                     } w-5 h-5 text-blue-300`}
                                 />
                             </Disclosure.Button>
-                            <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm text-gray-500">
+                            <Disclosure.Panel className="px-4 pt-4 pb-2  text-md text-gray-500">
                                 Minhas maiores especialidades são: Next.js e
                                 CSS.
                             </Disclosure.Panel>
