@@ -12,8 +12,8 @@ const MyHistory = () => {
                 <p className="mt-4 max-w-3xl text-xl text-gray-500 lg:mx-auto text-center">
                     Minha história começou quando eu tinha 12 anos de idade
                     quando meu pai, Jonas Gedrat começou a me incentivar a
-                    estudar JavaScript. Meu primeiro professor de JS foi o{' '}
-                    <strong>Gustavo Guanabara</strong> do canal 'Curso em vídeo'
+                    estudar JavaScript. Meu primeiro professor de JS foi o
+                    <strong>Gustavo Guanabara</strong> do canal Curso em vídeo
                     do You Tube. Depois disso ganhei o curso da Origamid e meu
                     professor foi o <strong>André Rafael</strong>, lá, eu
                     conquistei <strong>5 certificados:</strong> JavaScript,
