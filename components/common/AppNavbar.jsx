@@ -8,8 +8,12 @@ const AppNavbar = () => {
         <div>
             <header className="header mb-8 shadow-lg ">
                 <div className="logo">
-                    <Link href="">
-                        <img src={Logo.src} className="w-40 " alt="" />
+                    <Link href="/">
+                        <img
+                            src={Logo.src}
+                            className="w-40 cursor-pointer"
+                            alt=""
+                        />
                     </Link>
                 </div>
                 <nav className={`${open ? 'active' : ''} nav`}>
@@ -41,7 +45,7 @@ const AppNavbar = () => {
                         </li>
                         <li>
                             <a
-                                href="#"
+                                href="http://www.scalar.inf.br/Erp.aspx"
                                 className="font-semibold p-3 bg-gray-200 hover:bg-black hover:text-white duration-200 rounded-lg text-center"
                             >
                                 Scalar
