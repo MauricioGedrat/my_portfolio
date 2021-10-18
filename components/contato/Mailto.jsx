@@ -2,7 +2,7 @@ import React from 'react'
 
 const Mailto = () => {
     return (
-        <div className="mb-12">
+        <div className="mb-12" data-aos="flip-right">
             <div className="justify-center flex">
                 <h1 className="uppercase text-blue-400 font-semibold m-10 text-xl">
                     Fale comigo

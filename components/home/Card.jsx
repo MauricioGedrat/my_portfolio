@@ -3,7 +3,10 @@ import Mash from '../../assets/Mash.jpg'
 
 const Card = () => {
     return (
-        <figure className="md:flex bg-gray-100 rounded-xl overflow-hidden p-8 md:p-0 max-w-4xl m-auto shadow-lg mb-20">
+        <figure
+            className="md:flex bg-gray-100 rounded-xl overflow-hidden p-8 md:p-0 max-w-4xl m-auto shadow-lg mb-20"
+            data-aos="zoom-in"
+        >
             <img
                 className="w-32 h-32 md:w-80 md:h-auto md:rounded-none rounded-full mx-auto"
                 src={Mash.src}

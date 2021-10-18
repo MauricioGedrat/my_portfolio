@@ -3,7 +3,7 @@ import { ChevronUpIcon } from '@heroicons/react/solid'
 
 export default function Collapse() {
     return (
-        <div className="w-full px-4 pt-16 ">
+        <div className="w-full px-4 pt-16 " data-aos="zoom-in-down">
             <div className="justify-center flex">
                 <h1 className="uppercase text-blue-400 font-semibold ml-12 mb-10 text-xl">
                     Perguntas Frequentes

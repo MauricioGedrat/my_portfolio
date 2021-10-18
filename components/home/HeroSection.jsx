@@ -63,7 +63,11 @@ const features = [
 
 export default function HeroSection() {
     return (
-        <div className="py-12 bg-white -mt-20">
+        <div
+            className="py-12 bg-white "
+            data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom"
+        >
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="justify-center flex text-center">
                     <div className="lg:text-center">

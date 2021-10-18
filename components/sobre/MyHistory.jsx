@@ -2,7 +2,7 @@ import React from 'react'
 
 const MyHistory = () => {
     return (
-        <div>
+        <div data-aos="fade-down">
             <div className="justify-center flex">
                 <h1 className="uppercase text-blue-400 font-semibold m-10 text-xl">
                     Minha história

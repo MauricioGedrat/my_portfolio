@@ -60,7 +60,7 @@ const products = [
 
 export default function Owerview() {
     return (
-        <div className="bg-white">
+        <div className="bg-white" data-aos="zoom-out-left">
             <div className="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8 ">
                 <div className="justify-center flex">
                     <h1 className="uppercase text-blue-400 font-semibold m-10 text-xl">
@@ -74,11 +74,15 @@ export default function Owerview() {
                             href={product.href}
                             className="group"
                         >
-                            <div className="w-full aspect-w-1 aspect-h-1 bg-gray-200 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
+                            <div
+                                className="w-full aspect-w-1 aspect-h-1 bg-gray-200 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8"
+                                data-aos="flip-down"
+                                data-aos-duration="1000"
+                            >
                                 <img
                                     src={product.imageSrc}
                                     alt={product.imageAlt}
-                                    className="w-full h-full object-center object-cover group-hover:opacity-75 "
+                                    className="w-full h-40 object-center object-cover group-hover:opacity-75 "
                                 />
                             </div>
                             <h3 className="mt-4 text-md font-semibold text-gray-700">
